@@ -1,0 +1,5 @@
+{
+    "board": "pololu-a-star:avr:a-star32U4",
+    "sketch": "Rocky_Motor_Test_Calibration.ino",
+    "port": "COM7"
+}
