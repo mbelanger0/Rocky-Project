@@ -122,8 +122,8 @@ void loop()
 
   if(cur_time - prev_print_time > 50)   // do the printing every 53 ms. Don't want to do it for an integer multiple of 10ms to not hog the processor
   {
-       Serial.print(angle_rad);
-       Serial.print(",");   
+       Serial.println(angle_rad);
+      //  Serial.print(",");   
        prev_print_time = cur_time;
   }
 
